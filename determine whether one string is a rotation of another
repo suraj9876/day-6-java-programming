@@ -1,0 +1,22 @@
+import java.util.*;
+public class rotation
+{
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the 1st string:");
+        String ch1=sc.nextLine();
+        System.out.println("enter the 2nd string:");
+        String ch2=sc.nextLine();
+        if (ch1.length()==ch2.length()&&(ch1+ch1).indexOf(ch2) != -1)
+        {
+            System.out.println("rotation");
+        }
+        else
+        {
+            System.out.println("not rotation");
+        }
+
+        
+    }
+}
