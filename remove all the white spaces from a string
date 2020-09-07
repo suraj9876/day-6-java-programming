@@ -1,0 +1,25 @@
+import java.util.*;
+public class remove_whitespace
+{
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+       
+        System.out.println("enter the string:");
+        String ch=sc.nextLine();
+        String arr[]=ch.split("");
+        for (String w:arr)
+        {
+            if(w.equals(" "))
+            {
+                continue;
+            }
+            else
+            {
+                //System.out.println(w);
+            }
+            System.out.print(w);
+        }
+
+    }
+}
